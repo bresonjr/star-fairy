@@ -18,7 +18,7 @@ function preload(){
 function setup() {
 	createCanvas(800, 750);
 	//create fairy sprite and add animation for fairy
-	fairy = createSprite(100,520);
+	fairy = createSprite(170,520);
 	fairy.addAnimation("fairy",fairyImg);
 	fairy.scale=0.2
 	fairy.x=mouseX;
